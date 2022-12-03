@@ -1,10 +1,16 @@
 import React from 'react';
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <div className="text-center">
-      hello world
-    </div>
+    <>
+      <header>
+        <NavBar/>
+      </header>
+      <main className='container'>
+
+      </main>
+    </>
   );
 }
 
